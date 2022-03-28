@@ -28,7 +28,9 @@ public class DemoController {
     //资源名称
     public static final String RESOURCE_NAME = "userList";
     public static final String RESOURCE_NAME_QUERY_USER_BY_ID = "queryUserById";
-
+    public String s1 = "test第一次提交";
+//    public String s2 = "test第二次提交";
+//    public String s3 = "test第三次提交";
     @Resource
     private DemoService demoService;
 
